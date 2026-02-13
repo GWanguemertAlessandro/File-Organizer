@@ -1,6 +1,6 @@
 import tempfile
 from pathlib import Path
-from organizer import organize_folder
+from file_organizer.organizer import organize_folder
 
 
 def test_organize_creates_category_folder():
