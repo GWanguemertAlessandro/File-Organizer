@@ -1,6 +1,6 @@
 import argparse
 import logging
-from organizer import organize_folder
+from file_organizer.organizer import organize_folder
 
 
 def print_summary(stats: dict, dry_run: bool) -> None:
