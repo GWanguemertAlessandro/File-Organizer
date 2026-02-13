@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-organizer-local"
+version = "1.0.0"
+description = "A CLI tool to organize files by type"
+authors = [
+  { name="Alessandro Gomez" }
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+file-organizer = "file_organizer.cli:main"
